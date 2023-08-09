@@ -1,0 +1,14 @@
+.primary__button {
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-8);
+  line-height: var(--line-height-10);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.625rem 1.875rem;
+  border-radius: var(--border-radius-1);
+  transition: 0.5s;
+}
+
+.primary__button:hover {
+  background-color: var(--color-secondary);
+}

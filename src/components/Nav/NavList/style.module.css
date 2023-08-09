@@ -1,0 +1,16 @@
+nav > ul > li {
+  list-style: none;
+}
+
+.link {
+  color: var(--color-white);
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-size-8);
+  line-height: var(--line-height-10);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: var(--color-tertiary);
+}

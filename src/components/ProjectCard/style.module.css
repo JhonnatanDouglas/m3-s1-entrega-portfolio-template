@@ -1,0 +1,48 @@
+.project__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1.875rem;
+  max-width: 27.5rem;
+  height: 11.25rem;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--border-radius-0);
+}
+
+.project__card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project__card > div > h3 {
+  font-weight: var(--font-weight-0);
+  font-size: var(--font-size-5);
+  line-height: var(--line-height-5);
+  color: var(--color-white);
+}
+
+.project__card > div > p {
+  font-weight: var(--font-weight-3);
+  font-size: var(--font-size-6);
+  line-height: var(--line-height-3);
+  color: var(--color-white);
+}
+
+.project__card > div > a {
+  margin-top: 1.25rem;
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-6);
+  line-height: var(--line-height-3);
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.project__card > div > a:visited {
+  color: var(--color-link);
+}
+
+@media (min-width: 48.0625rem) {
+  .project__card {
+    min-width: 27.1875rem;
+  }
+}

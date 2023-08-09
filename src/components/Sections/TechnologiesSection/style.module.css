@@ -1,0 +1,32 @@
+.container__section {
+  margin-top: 6.25rem;
+  padding: 0rem 1.875rem;
+}
+
+.container__card {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5625rem 0rem 6.25rem;
+  gap: var(--gap-2);
+}
+
+@media (min-width: 26.625rem) {
+  .container__card {
+    justify-content: start;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    margin: 1.5625rem 0rem 6.25rem;
+    gap: var(--gap-3);
+  }
+}
+
+@media (min-width: 48.0625rem) {
+  .container__section {
+    margin: 6.25rem auto 0rem;
+    max-width: 56.25rem;
+  }
+
+  .container__section {
+    padding: 0rem;
+  }
+}

@@ -1,0 +1,26 @@
+.tech__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.5625rem 0rem 1.5625rem 1.875rem;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--border-radius-0);
+  gap: var(--gap-1);
+}
+
+.tech__card > figure > img {
+  width: 1.875rem;
+}
+
+.tech__card > p {
+  font-weight: var(--font-weight-0);
+  font-size: var(--font-size-5);
+  line-height: var(--line-height-5);
+  color: var(--color-white);
+}
+
+@media (min-width: 26.625rem) {
+  .tech__card {
+    min-width: 17.8125rem;
+  }
+}
